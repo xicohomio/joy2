@@ -11,6 +11,7 @@
 	width:100px;
 	height: 100px;
 	float: left;
+	font-size: 100px
 }
 
 #bt2{
@@ -18,6 +19,7 @@
 	width:100px;
 	height: 100px;
 	float: right;
+	font-size: 100px;
 }
 
 #bt3{
