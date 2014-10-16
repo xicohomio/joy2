@@ -60,4 +60,23 @@ $b = $( "#boneco" );
 		moveup();
 	
 	})
-});
+
+	document.onkeydown = checkKey;
+	function checkKey (e) {
+		e = e || window.event;
+			if (e.keyCode == '39')  {
+		moveRight()
+			}
+
+		else if (e.keyCode == '40') {
+			movedown()
+		}
+		else if (e.keyCode == '37') {
+			moveLeft()
+		}
+		else if (e.keyCode == '38') {
+			moveup()
+		}
+	}
+	
+	});
